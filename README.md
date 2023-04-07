@@ -6,6 +6,7 @@ I decided to use regular season player statistics, because this ensures we have 
 
 My approach was as follows:
 
-Use clustering to group similar players. I used three different segments of players--forwards, defenders, and goalies, and created clusters in each
+1) Use clustering to group similar players. I used three different segments of players--forwards, defenders, and goalies, and created clusters in each
 Use those clusters to characterize the 32 NHL teams for various seasons between 2008/9 and 2021/22. How many players from each cluster do the teams have?
-Then use logistic regression to see if we can find relationships between teams having certain mixes of players, and going "deep" in the playoffs. e.g., What's the relationship between having a forward from cluster 3 and going deep in the playoffs? If we know that, we know how important it is to have such players on your roster.
+2) Then use logistic regression to see if we can find relationships between teams having certain mixes of players, and going "deep" in the playoffs. e.g., What's the relationship between having a forward from cluster 3 and going deep in the playoffs?
+3)  If we know that, we know how important it is to have such players on your roster.
