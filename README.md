@@ -1,5 +1,8 @@
 # NHL-Hockey-Cluster-Analysis
 
+# see https://www.kaggle.com/code/mesadowski/what-makes-an-nhl-winner
+# This uses this data set: https://www.kaggle.com/datasets/mesadowski/nhl-player-and-team-data-20089202122
+
 The idea of this analysis is to use NHL player and team performance data to determine the characteristics of a high-performing NHL team, i.e., what kind of players do they have? With a model like this, we can look at the roster of a team, and determine their chances of going deep into the playoffs, and we can also make suggestions about what kinds of player moves they must make in order to become a great team.
 
 I decided to use regular season player statistics, because this ensures we have a lot of data on every player in the league. However, to determine if a team is a high-performer, I used playoff performance, not regular season performance. It might be worth trying to use regular season data, but playoff performance is the ultimate test, and arguably the nature of the game changes in the playoffs.
